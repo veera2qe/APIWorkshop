@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="UI-Test Cases" verbose="1" >
+    <listeners>
+        <listener class-name="com.listners.AppListners"></listener>
+    </listeners>
+    <test name="APITesting" >
+        <classes>
+            <class name="com.uitestcases.TC_01_Testing"></class>
+        </classes>
+    </test>
+</suite>
