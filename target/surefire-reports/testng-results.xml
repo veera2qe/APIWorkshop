@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="UI-Test Cases" duration-ms="14247" started-at="2022-04-24T20:26:21 IST" finished-at="2022-04-24T20:26:35 IST">
+  <suite name="Suite1" duration-ms="4506" started-at="2022-07-10T10:57:16 IST" finished-at="2022-07-10T10:57:20 IST">
     <groups>
     </groups>
-    <test name="APITesting" duration-ms="14247" started-at="2022-04-24T20:26:21 IST" finished-at="2022-04-24T20:26:35 IST">
-      <class name="com.uitestcases.TC_01_Testing">
-        <test-method status="PASS" signature="RegisterUser()[pri:0, instance:com.uitestcases.TC_01_Testing@7af707e0]" name="RegisterUser" duration-ms="3995" started-at="2022-04-24T20:26:31 IST" finished-at="2022-04-24T20:26:35 IST">
+    <test name="APITesting" duration-ms="4506" started-at="2022-07-10T10:57:16 IST" finished-at="2022-07-10T10:57:20 IST">
+      <class name="com.testcases.TC_02_CreateUser">
+        <test-method status="PASS" signature="validateCreateUser()[pri:0, instance:com.testcases.TC_02_CreateUser@780ec4a5]" name="validateCreateUser" duration-ms="929" started-at="2022-07-10T10:57:19 IST" description="testing 2" finished-at="2022-07-10T10:57:20 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterUser -->
-      </class> <!-- com.uitestcases.TC_01_Testing -->
+        </test-method> <!-- validateCreateUser -->
+      </class> <!-- com.testcases.TC_02_CreateUser -->
+      <class name="com.testcases.TC_01_GetCategories">
+        <test-method status="PASS" signature="validateGetCategories()[pri:0, instance:com.testcases.TC_01_GetCategories@6928f576]" name="validateGetCategories" duration-ms="3435" started-at="2022-07-10T10:57:16 IST" description="testing 1" finished-at="2022-07-10T10:57:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetCategories -->
+      </class> <!-- com.testcases.TC_01_GetCategories -->
     </test> <!-- APITesting -->
-  </suite> <!-- UI-Test Cases -->
+  </suite> <!-- Suite1 -->
 </testng-results>

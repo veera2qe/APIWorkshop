@@ -29,7 +29,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <xmlFile>ui_testng.xml</xmlFile>
+                        <xmlFile>testng.xml</xmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
